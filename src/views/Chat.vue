@@ -8,7 +8,7 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <router-link to="/articles">Article</router-link>
+        <router-link to="/article">Article</router-link>
       </li>
       <li>
         <router-link to="/top">Top</router-link>

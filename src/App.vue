@@ -7,17 +7,21 @@
 
 <script>
 import Chat from './components/Chat.vue'
+// import ContentsPage from './components/ContentsPage.vue'
 
 export default {
   name: 'app',
   components: {
-    Chat
+    Chat,
+    // ContentsPage
   }
 }
+
+
 </script>
 
 <!-- <style> -->
-<style lang="scss">
+<style lang="scss" scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

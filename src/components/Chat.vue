@@ -2,10 +2,21 @@
   <div class="chat">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
+      チャットを簡単に作れると良いな。
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <h2>Essential Links</h2>
+    <ul>
+      <li>
+        <router-link to="/articles">Article</router-link>
+      </li>
+      <li>
+        <router-link to="/top">Top</router-link>
+      </li>
+      <li>
+        <router-link to="/">HelloWorld</router-link>
+      </li>
+    </ul>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>

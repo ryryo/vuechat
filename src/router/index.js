@@ -6,6 +6,18 @@ import Article from '../views/Article.vue'
 import About from '../views/About.vue'
 import Footer from '../components/Footer.vue'
 
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true
+})
+// https://bootstrap-vue.js.org/docs/
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import '../assets/css/custom.scss'
+Vue.use(BootstrapVue)
+
 Vue.use(VueRouter)
 
 const routes = [

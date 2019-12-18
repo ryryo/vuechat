@@ -35,3 +35,14 @@
   }
 }
 </style>
+
+
+<script>
+  export default {
+    metaInfo: {
+      htmlAttrs: {
+        lang: 'ja',
+      }
+    }
+  }
+</script>

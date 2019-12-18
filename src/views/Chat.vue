@@ -5,6 +5,15 @@
       チャットを簡単に作れると良いな。
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+
+    <b-button
+      size="lg"
+      variant="outline-primary"
+      class="mb-4"
+      >
+      Bootstrap Button
+    </b-button>
+
     <h2>Essential Links</h2>
     <ul>
       <li>
